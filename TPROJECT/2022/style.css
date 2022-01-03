@@ -1,0 +1,245 @@
+page {
+  background: #e6f0f5;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+page[size="A4"] {
+  width: 32.7cm;
+  height: 47.2cm;
+}
+
+@media print {
+  body,
+  page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+/*Toranam Border*/
+.borderClass {
+  border: 40px solid transparent;
+  border-image: url(Border.jpg) 40;
+  left: -337px;
+  top: -480px;
+}
+
+/*header part */
+.inner {
+  padding: 1px;
+}
+header {
+  display: inline;
+  background-color: #e6f0f5;
+  /* height: 3; */
+  margin: 0px;
+}
+
+header .logo {
+  display: absolute;
+  float: left;
+}
+
+header .logo img {
+  height: 170px;
+  width: 170px;
+}
+header h1 {
+  text-align: center;
+  color: rgb(12 12 12);
+  font-weight: bold;
+  font-size: 65px;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+  color: #ff2700;
+}
+
+header .guru {
+  display: flex;
+  height: 100%;
+  float: right;
+}
+
+header .guru img {
+  height: 170px;
+  width: 170px;
+}
+/*Divider Border*/
+.dividerClass {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e6f0f5;
+  width: 700px;
+  margin-top: -63px;
+}
+
+/*KAVI AND POEM */
+.centerPoemDivider {
+  background-image: none;
+  width: 350px;
+  margin-left: 59px;
+}
+.poemContent {
+  font-size: 27px;
+  font-weight: bold;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+}
+/*Calender */
+/*PART 3 REFLECTS MONTH */
+.month {
+  background-color: #006598;
+  color: white;
+  border: 1px solid black;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+  height: 30px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(14, 5fr);
+  grid-template-rows: repeat(5, 5fr);
+  font-family: "Sree Krushnadevaraya", sans-serif;
+  text-align: center;
+  padding-bottom: 4px;
+  font-size: 29px;
+  height: 3;
+}
+.week {
+  background-color: #006598;
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  height: 80px;
+}
+.items {
+  background-color: #e6f0f5;
+  border: 1px solid black;
+  height: 80px;
+}
+.SUN {
+  background-color: rgb(248, 211, 211);
+  border: 1px solid black;
+  font-weight: bold;
+  color: #c32d0d;
+  height: 80px;
+}
+.holidays {
+  border: 1px solid black;
+  font-weight: bold;
+  color: #ff2700;
+  background-color: #e6f0f5;
+  height: 80px;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+}
+/*part3  refeclt dark and right circles*/
+.dark-circle {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 4px;
+  margin-top: -53px;
+}
+.light-circle {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border: black 2px solid ;
+  border-radius: 50px;
+  margin: 4px;
+  margin-top: -55px;
+} /* END OF PART 3 */
+
+.address {
+  font-family: "Sree Krushnadevaraya", sans-serif;
+}
+.alignleft {
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+}
+.alignright {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+}
+.alignright img {
+  height: 25px;
+  width: 25px;
+}
+small {
+  font-weight: bold;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+  float: right;
+  font-size: 15px;
+}
+
+.imgDiv {
+  display: inline-block;
+  width: 43%;
+  padding: 10px;
+  height: 82%;
+  margin-left: 20px;
+}
+
+.imgTag {
+  height: 613px;
+  width: 90%;
+  margin: 20px;
+  margin-left: 32px;
+  border-radius: 20px;
+}
+
+.imgText {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  margin-right: 18px;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+}
+
+/* Introduction Page */
+.centerLogo {
+  text-align: center;
+  margin-top: 20px;
+}
+.centerLogo img {
+  border-radius: 25px;
+}
+
+main h1 {
+  color: rgb(247, 30, 30);
+  font-size: 35px;
+  text-align: center;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+}
+
+.content {
+  font-size: 27px;
+  font-weight: bold;
+  color: rgb(30, 11, 139);
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: "Sree Krushnadevaraya", sans-serif;
+}
+/* Close Intro page */
+
+.footerHeading {
+  font-size: 27px;
+  font-family: "Sree Krushnadevaraya";
+  text-align: center;
+  color: #c32d0d;
+}
+
+.links {
+  text-decoration: none;
+  color: #060099;
+}
